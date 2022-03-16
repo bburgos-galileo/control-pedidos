@@ -1,0 +1,15 @@
+{
+  "name": "control-pedidos",
+  "version": "1.0.0",
+  "description": "Sistema de manejo de inventario de un supermercado",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Byron Burgos",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^17.1.2"
+  }
+}

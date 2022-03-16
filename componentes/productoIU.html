@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <title>Productos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <form action="" class="mt-2 border p-4 bg-light shadow" id="formRegistro">
+                    <h4 class="mb-5 text-secondary">Mantenimiento de Productos</h4>
+                    <div class="row">
+                        <div class="mb-2 form-floating">
+                            <input type="text" id="txtDescripcion" class="form-control form-control-sm">
+                            <label for="txtDescripcion">Descripción Producto<span class="text-danger">*</span></label>
+                        </div>
+
+                        <div class="mb-2">
+                            <input class="form-control form-control-sm" list="datalistCategoria" id="lblDataList"
+                                placeholder="Selecciones una categoría">
+                            <datalist id="datalistCategoria">
+                                <option value="Bebes">
+                                <option value="Abarrotes">
+                                <option value="Licores">
+                                <option value="Limpieza">
+                                <option value="Panaderia">
+                            </datalist>
+                        </div>
+
+                        <div class="mb-2">
+                            <input class="form-control form-control-sm" list="datalistProveedor" id="lblDataListProvee"
+                                placeholder="Selecciones una categoría">
+                            <datalist id="datalistProveedor">
+                                <option value="Huggies">
+                                <option value="Dos Pinos">
+                                <option value="Licorera Nacional">
+                                <option value="Don Clean">
+                                <option value="Pan Europa">
+                            </datalist>
+                        </div>
+
+                        <div class="mb-2 form-floating">
+                            <input type="number" id="iCorreo" name="numQTY" class="form-control form-control-sm">
+                            <label for="numQTY">Cantidad<span class="text-danger">*</span></label>
+                        </div>
+
+                        <div>
+                            <input type="submit" class="btn btn-primary float-end" id="enviar" value="Guardar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
